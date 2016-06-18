@@ -10,8 +10,8 @@
       body: document.getElementById('results-body')
     },
     forms: {
-      unanswered: document.getElementById('unanswered'),
-      inspiration: document.getElementById('inspiration'),
+      unanswered: document.getElementById('unanswered-getter'),
+      inspiration: document.getElementById('inspiration-getter'),
     }
   }
 
