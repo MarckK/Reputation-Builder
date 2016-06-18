@@ -1,6 +1,5 @@
-'use strict'
-
-;(function () {
+(function () {
+  'use strict'
   /* ------------------------------------------------------------
   * DOM Elements
   * Store references to the elements that will be referred to by the app
@@ -28,14 +27,14 @@
     DOM.results.summary.innerHTML = summary
   }
 
-  function getResultsSummaryMarkup (query, numResults) {
-    return numResults + ' results for <strong>' + query + '</strong>'
-  }
-
   /* ------------------------------------------------------------
   * Element templates
   * Helper functions to generate the HTML for each search result
   * ---------------------------------------------------------- */
+  function getResultsSummaryMarkup (query, numResults) {
+    return numResults + ' results for <strong>' + query + '</strong>'
+  }
+
   function getQuestionMarkup (question) {
     /**
     * @param {Object} question: Question object from SO API response
