@@ -88,9 +88,9 @@
       return key + '=' + query[key]
     }).join('&')
 
-    console.log(queryString);
-    console.log(baseUrl + path + '?' + queryString);
-    console.log('Me get Unanswered: https://api.stackexchange.com/2.2/questions/unanswered?order=desc&sort=activity&tagged=' + tags + '&site=stackoverflow')
+    // console.log(queryString);
+    // console.log(baseUrl + path + '?' + queryString);
+    // console.log('Me get Unanswered: https://api.stackexchange.com/2.2/questions/unanswered?order=desc&sort=activity&tagged=' + tags + '&site=stackoverflow')
 
     var xhr = new XMLHttpRequest()
 
@@ -130,9 +130,9 @@
       return key + '=' + query[key]
     })
 
-    console.log(queryString);
-    console.log(baseUrl + path + '?' + queryString);
-    console.log('Me topanswerers: https://api.stackexchange.com/2.2/tags/' + tag + '/top-answerers/all_time?site=stackoverflow')
+    // console.log(queryString);
+    // console.log(baseUrl + path + '?' + queryString);
+    // console.log('Me topanswerers: https://api.stackexchange.com/2.2/tags/' + tag + '/top-answerers/all_time?site=stackoverflow')
 
     var xhr = new XMLHttpRequest()
 
